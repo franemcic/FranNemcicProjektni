@@ -1,0 +1,113 @@
+@charset "UTF-8";
+/* CSS Document */
+/* stil-bmw.css */
+
+:root {
+  --bmw-blue: #0166B1;     /* Honolulu/Rich Electric Blue */
+  --bmw-gray: #6F6F6F;     /* Dark Silver */
+  --bmw-black: #000000;
+  --bmw-white: #FFFFFF;
+}
+
+/* Globalni styling */
+body {
+  background-color: var(--bmw-black);
+  color: var(--bmw-white);
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header */
+header {
+  background-color: var(--bmw-blue);
+  padding: 20px 0;
+}
+
+header h1 {
+  margin: 0;
+  font-size: 2.5em;
+  color: var(--bmw-white);
+}
+
+header h2 {
+  margin: 5px 0 0;
+  font-size: 1.2em;
+  color: var(--bmw-gray);
+}
+
+/* Navigacija */
+nav {
+  background-color: var(--bmw-gray);
+  padding: 10px 0;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+nav ul li {
+  display: inline-block;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: var(--bmw-white);
+  text-decoration: none;
+  font-weight: bold;
+  padding: 8px;
+}
+
+nav ul li a:hover {
+  color: var(--bmw-blue);
+  border-bottom: 2px solid var(--bmw-blue);
+}
+
+/* Glavni sadržaj */
+main {
+  padding: 40px 20px;
+}
+
+p, li {
+  color: var(--bmw-white);
+  line-height: 1.6;
+}
+
+/* Slike i multimedija */
+img, video, iframe, audio {
+  max-width: 100%;
+  height: auto;
+  border-radius: 4px;
+  border: 2px solid var(--bmw-blue);
+  margin: 20px auto;
+  display: block;
+}
+
+/* Naslovi */
+h3 {
+  color: var(--bmw-blue);
+  margin-top: 40px;
+}
+
+/* Footer */
+footer {
+  background-color: var(--bmw-gray);
+  color: var(--bmw-white);
+  padding: 15px 0;
+  border-top: 3px solid var(--bmw-blue);
+  margin-top: 40px;
+}
+
+/* Linkovi unutar teksta */
+a {
+  color: var(--bmw-blue);
+}
+
+a:hover {
+  color: var(--bmw-white);
+  background-color: var(--bmw-blue);
+}
+

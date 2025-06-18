@@ -3,16 +3,16 @@
 /* stil-bmw.css */
 
 :root {
-  --bmw-blue: #0166B1;     /* Honolulu/Rich Electric Blue */
-  --bmw-gray: #6F6F6F;     /* Dark Silver */
-  --bmw-black: #000000;
-  --bmw-white: #FFFFFF;
-  --bmw-red: #FF0000
+  --bmw-blue: #0166B1 !important;     /* Honolulu/Rich Electric Blue */
+  --bmw-gray: #6F6F6F !important;     /* Dark Silver */
+  --bmw-black: #000000 !important;
+  --bmw-white: #FFFFFF !important;
+  --bmw-red: #FF0000 !important
 }
 
 /* Globalni styling */
 body {
-  background-color: var(--bmw-red);
+  background-color: var(--bmw-black) !important;
   color: var(--bmw-white);
   font-family: Arial, sans-serif;
   text-align: center;
@@ -22,7 +22,7 @@ body {
 
 /* Header */
 header {
-  background-color: var(--bmw-black);
+  background-color: var(--bmw-white);
   padding: 20px 0;
 }
 
@@ -35,12 +35,12 @@ header h1 {
 header h2 {
   margin: 5px 0 0;
   font-size: 1.2em;
-  color: var(--bmw-red);
+  color: var(--bmw-black);
 }
 
 /* Navigacija */
 nav {
-  background-color: var(--bmw-black);
+  background-color: var(--bmw-red);
   padding: 10px 0;
 }
 
@@ -95,10 +95,10 @@ h3 {
 
 /* Footer */
 footer {
-  background-color: var(--bmw-gray);
+  background-color: var(--bmw-black);
   color: var(--bmw-white);
   padding: 15px 0;
-  border-top: 3px solid var(--bmw-blue);
+  border-top: 3px solid var(--bmw-red);
   margin-top: 40px;
 }
 

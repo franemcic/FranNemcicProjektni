@@ -7,11 +7,12 @@
   --bmw-gray: #6F6F6F;     /* Dark Silver */
   --bmw-black: #000000;
   --bmw-white: #FFFFFF;
+  --bmw-red: #FF0000
 }
 
 /* Globalni styling */
 body {
-  background-color: var(--bmw-black);
+  background-color: var(--bmw-red);
   color: var(--bmw-white);
   font-family: Arial, sans-serif;
   text-align: center;
@@ -21,7 +22,7 @@ body {
 
 /* Header */
 header {
-  background-color: var(--bmw-blue);
+  background-color: var(--bmw-black);
   padding: 20px 0;
 }
 
@@ -34,12 +35,12 @@ header h1 {
 header h2 {
   margin: 5px 0 0;
   font-size: 1.2em;
-  color: var(--bmw-gray);
+  color: var(--bmw-red);
 }
 
 /* Navigacija */
 nav {
-  background-color: var(--bmw-gray);
+  background-color: var(--bmw-black);
   padding: 10px 0;
 }
 
